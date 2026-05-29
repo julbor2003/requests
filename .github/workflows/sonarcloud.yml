@@ -37,4 +37,5 @@ jobs:
           args: >
             -Dsonar.projectKey=julbor2003_requests
             -Dsonar.organization=julbor2003
+            -Dsonar.python.coverage.reportPaths=.coverage-reports/coverage-py.xml
             -Dsonar.qualitygate.wait=true
